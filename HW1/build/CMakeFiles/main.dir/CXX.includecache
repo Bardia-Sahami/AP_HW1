@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/regression.h
+iostream
+-
+vector
+-
+fstream
+-
+string
+-
+stdexcept
+-
+cmath
+-
+
+/usr/src/app/src/regression.cpp
+regression.h
+/usr/src/app/src/regression.h
+

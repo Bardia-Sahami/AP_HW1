@@ -1,0 +1,195 @@
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /usr/src/app/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_5de2f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5de2f.dir/build.make CMakeFiles/cmTC_5de2f.dir/build
+gmake[1]: Entering directory '/usr/src/app/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5de2f.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_5de2f.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.18/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+Target: x86_64-linux-gnu
+Configured with: /usr/src/gcc/configure --build=x86_64-linux-gnu --disable-multilib --enable-languages=c,c++,fortran,go
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5de2f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5de2f.dir/'
+ /usr/local/libexec/gcc/x86_64-linux-gnu/11.2.0/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.18/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_5de2f.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccckvnKQ.s
+GNU C17 (GCC) version 11.2.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.2.0, GMP version 6.1.0, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/local/lib/gcc/x86_64-linux-gnu/11.2.0/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/lib/gcc/x86_64-linux-gnu/11.2.0/include
+ /usr/local/include
+ /usr/local/lib/gcc/x86_64-linux-gnu/11.2.0/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (GCC) version 11.2.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.2.0, GMP version 6.1.0, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: c7d0d3519fd50ac594444c3d2553bc16
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5de2f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5de2f.dir/'
+ as -v --64 -o CMakeFiles/cmTC_5de2f.dir/CMakeCCompilerABI.c.o /tmp/ccckvnKQ.s
+GNU assembler version 2.35.2 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.35.2
+COMPILER_PATH=/usr/local/libexec/gcc/x86_64-linux-gnu/11.2.0/:/usr/local/libexec/gcc/x86_64-linux-gnu/11.2.0/:/usr/local/libexec/gcc/x86_64-linux-gnu/:/usr/local/lib/gcc/x86_64-linux-gnu/11.2.0/:/usr/local/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/local/lib/gcc/x86_64-linux-gnu/11.2.0/:/usr/local/lib/gcc/x86_64-linux-gnu/11.2.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/local/lib/gcc/x86_64-linux-gnu/11.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5de2f.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_5de2f.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_5de2f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5de2f.dir/link.txt --verbose=1
+/usr/bin/cc  -v CMakeFiles/cmTC_5de2f.dir/CMakeCCompilerABI.c.o -o cmTC_5de2f 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/local/libexec/gcc/x86_64-linux-gnu/11.2.0/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: /usr/src/gcc/configure --build=x86_64-linux-gnu --disable-multilib --enable-languages=c,c++,fortran,go
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (GCC) 
+COMPILER_PATH=/usr/local/libexec/gcc/x86_64-linux-gnu/11.2.0/:/usr/local/libexec/gcc/x86_64-linux-gnu/11.2.0/:/usr/local/libexec/gcc/x86_64-linux-gnu/:/usr/local/lib/gcc/x86_64-linux-gnu/11.2.0/:/usr/local/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/local/lib/gcc/x86_64-linux-gnu/11.2.0/:/usr/local/lib/gcc/x86_64-linux-gnu/11.2.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/local/lib/gcc/x86_64-linux-gnu/11.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5de2f' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_5de2f.'
+ /usr/local/libexec/gcc/x86_64-linux-gnu/11.2.0/collect2 -plugin /usr/local/libexec/gcc/x86_64-linux-gnu/11.2.0/liblto_plugin.so -plugin-opt=/usr/local/libexec/gcc/x86_64-linux-gnu/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cctJ9AUi.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_5de2f /usr/lib/x86_64-linux-gnu/crt1.o /usr/lib/x86_64-linux-gnu/crti.o /usr/local/lib/gcc/x86_64-linux-gnu/11.2.0/crtbegin.o -L/usr/local/lib/gcc/x86_64-linux-gnu/11.2.0 -L/usr/local/lib/gcc/x86_64-linux-gnu/11.2.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/local/lib/gcc/x86_64-linux-gnu/11.2.0/../../.. CMakeFiles/cmTC_5de2f.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/local/lib/gcc/x86_64-linux-gnu/11.2.0/crtend.o /usr/lib/x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5de2f' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_5de2f.'
+gmake[1]: Leaving directory '/usr/src/app/build/CMakeFiles/CMakeTmp'
+
+
+Cannot copy output executable
+  '/usr/src/app/build/CMakeFiles/CMakeTmp/cmTC_5de2f'
+to destination specified by COPY_FILE:
+  '/usr/src/app/build/CMakeFiles/3.18.4/CMakeDetermineCompilerABI_C.bin'
+
+
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: /usr/src/app/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_a666d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a666d.dir/build.make CMakeFiles/cmTC_a666d.dir/build
+gmake[1]: Entering directory '/usr/src/app/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a666d.dir/CMakeCXXCompilerABI.cpp.o
+/usr/local/bin/c++   -v -o CMakeFiles/cmTC_a666d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/c++
+Target: x86_64-linux-gnu
+Configured with: /usr/src/gcc/configure --build=x86_64-linux-gnu --disable-multilib --enable-languages=c,c++,fortran,go
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a666d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a666d.dir/'
+ /usr/local/libexec/gcc/x86_64-linux-gnu/11.2.0/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_a666d.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccg3jYFz.s
+GNU C++17 (GCC) version 11.2.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.2.0, GMP version 6.1.0, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/local/lib/gcc/x86_64-linux-gnu/11.2.0/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/lib/gcc/x86_64-linux-gnu/11.2.0/../../../../include/c++/11.2.0
+ /usr/local/lib/gcc/x86_64-linux-gnu/11.2.0/../../../../include/c++/11.2.0/x86_64-linux-gnu
+ /usr/local/lib/gcc/x86_64-linux-gnu/11.2.0/../../../../include/c++/11.2.0/backward
+ /usr/local/lib/gcc/x86_64-linux-gnu/11.2.0/include
+ /usr/local/include
+ /usr/local/lib/gcc/x86_64-linux-gnu/11.2.0/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++17 (GCC) version 11.2.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.2.0, GMP version 6.1.0, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: b9f66814b89423959c44029dd73d41d0
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a666d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a666d.dir/'
+ as -v --64 -o CMakeFiles/cmTC_a666d.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccg3jYFz.s
+GNU assembler version 2.35.2 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.35.2
+COMPILER_PATH=/usr/local/libexec/gcc/x86_64-linux-gnu/11.2.0/:/usr/local/libexec/gcc/x86_64-linux-gnu/11.2.0/:/usr/local/libexec/gcc/x86_64-linux-gnu/:/usr/local/lib/gcc/x86_64-linux-gnu/11.2.0/:/usr/local/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/local/lib/gcc/x86_64-linux-gnu/11.2.0/:/usr/local/lib/gcc/x86_64-linux-gnu/11.2.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/local/lib/gcc/x86_64-linux-gnu/11.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a666d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a666d.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_a666d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a666d.dir/link.txt --verbose=1
+/usr/local/bin/c++  -v CMakeFiles/cmTC_a666d.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_a666d 
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/c++
+COLLECT_LTO_WRAPPER=/usr/local/libexec/gcc/x86_64-linux-gnu/11.2.0/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: /usr/src/gcc/configure --build=x86_64-linux-gnu --disable-multilib --enable-languages=c,c++,fortran,go
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (GCC) 
+COMPILER_PATH=/usr/local/libexec/gcc/x86_64-linux-gnu/11.2.0/:/usr/local/libexec/gcc/x86_64-linux-gnu/11.2.0/:/usr/local/libexec/gcc/x86_64-linux-gnu/:/usr/local/lib/gcc/x86_64-linux-gnu/11.2.0/:/usr/local/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/local/lib/gcc/x86_64-linux-gnu/11.2.0/:/usr/local/lib/gcc/x86_64-linux-gnu/11.2.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/local/lib/gcc/x86_64-linux-gnu/11.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a666d' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a666d.'
+ /usr/local/libexec/gcc/x86_64-linux-gnu/11.2.0/collect2 -plugin /usr/local/libexec/gcc/x86_64-linux-gnu/11.2.0/liblto_plugin.so -plugin-opt=/usr/local/libexec/gcc/x86_64-linux-gnu/11.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMrvasX.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_a666d /usr/lib/x86_64-linux-gnu/crt1.o /usr/lib/x86_64-linux-gnu/crti.o /usr/local/lib/gcc/x86_64-linux-gnu/11.2.0/crtbegin.o -L/usr/local/lib/gcc/x86_64-linux-gnu/11.2.0 -L/usr/local/lib/gcc/x86_64-linux-gnu/11.2.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/local/lib/gcc/x86_64-linux-gnu/11.2.0/../../.. CMakeFiles/cmTC_a666d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/local/lib/gcc/x86_64-linux-gnu/11.2.0/crtend.o /usr/lib/x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a666d' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a666d.'
+gmake[1]: Leaving directory '/usr/src/app/build/CMakeFiles/CMakeTmp'
+
+
+Cannot copy output executable
+  '/usr/src/app/build/CMakeFiles/CMakeTmp/cmTC_a666d'
+to destination specified by COPY_FILE:
+  '/usr/src/app/build/CMakeFiles/3.18.4/CMakeDetermineCompilerABI_CXX.bin'
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /usr/src/app/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_0370a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0370a.dir/build.make CMakeFiles/cmTC_0370a.dir/build
+gmake[1]: Entering directory '/usr/src/app/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0370a.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD -o CMakeFiles/cmTC_0370a.dir/src.c.o -c /usr/src/app/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_0370a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0370a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD CMakeFiles/cmTC_0370a.dir/src.c.o -o cmTC_0370a 
+/usr/bin/ld: CMakeFiles/cmTC_0370a.dir/src.c.o: in function `main':
+src.c:(.text+0x2d): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x39): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x45): undefined reference to `pthread_cancel'
+/usr/bin/ld: src.c:(.text+0x56): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_0370a.dir/build.make:106: cmTC_0370a] Error 1
+gmake[1]: Leaving directory '/usr/src/app/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_0370a/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /usr/src/app/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_5be20/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5be20.dir/build.make CMakeFiles/cmTC_5be20.dir/build
+gmake[1]: Entering directory '/usr/src/app/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5be20.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_5be20.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5be20
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5be20.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_5be20.dir/CheckFunctionExists.c.o -o cmTC_5be20  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_5be20.dir/build.make:106: cmTC_5be20] Error 1
+gmake[1]: Leaving directory '/usr/src/app/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:140: cmTC_5be20/fast] Error 2
+
+
+

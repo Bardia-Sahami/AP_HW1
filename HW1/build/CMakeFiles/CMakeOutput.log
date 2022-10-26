@@ -1,0 +1,83 @@
+The system is: Linux - 5.10.16.3-microsoft-standard-WSL2 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/usr/src/app/build/CMakeFiles/3.18.4/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/local/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/usr/src/app/build/CMakeFiles/3.18.4/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /usr/src/app/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_847ee/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_847ee.dir/build.make CMakeFiles/cmTC_847ee.dir/build
+gmake[1]: Entering directory '/usr/src/app/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_847ee.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_847ee.dir/testCCompiler.c.o -c /usr/src/app/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_847ee
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_847ee.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_847ee.dir/testCCompiler.c.o -o cmTC_847ee 
+gmake[1]: Leaving directory '/usr/src/app/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /usr/src/app/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_e7cc6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e7cc6.dir/build.make CMakeFiles/cmTC_e7cc6.dir/build
+gmake[1]: Entering directory '/usr/src/app/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e7cc6.dir/testCXXCompiler.cxx.o
+/usr/local/bin/c++    -o CMakeFiles/cmTC_e7cc6.dir/testCXXCompiler.cxx.o -c /usr/src/app/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_e7cc6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7cc6.dir/link.txt --verbose=1
+/usr/local/bin/c++ CMakeFiles/cmTC_e7cc6.dir/testCXXCompiler.cxx.o -o cmTC_e7cc6 
+gmake[1]: Leaving directory '/usr/src/app/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /usr/src/app/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_8f2a6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8f2a6.dir/build.make CMakeFiles/cmTC_8f2a6.dir/build
+gmake[1]: Entering directory '/usr/src/app/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8f2a6.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_8f2a6.dir/CheckIncludeFile.c.o -c /usr/src/app/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_8f2a6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f2a6.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_8f2a6.dir/CheckIncludeFile.c.o -o cmTC_8f2a6 
+gmake[1]: Leaving directory '/usr/src/app/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /usr/src/app/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_ef649/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ef649.dir/build.make CMakeFiles/cmTC_ef649.dir/build
+gmake[1]: Entering directory '/usr/src/app/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ef649.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_ef649.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.18/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ef649
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef649.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_ef649.dir/CheckFunctionExists.c.o -o cmTC_ef649  -lpthread 
+gmake[1]: Leaving directory '/usr/src/app/build/CMakeFiles/CMakeTmp'
+
+
+
